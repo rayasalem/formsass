@@ -76,10 +76,6 @@ select {
   background-color: #fff;
 }
 @media screen and (max-width: 600px) {
-  .container {
-    max-width: 90%;
- min-width: 200px;
-  }
 .row{
   grid-template-columns: 1fr;
 }
@@ -96,18 +92,11 @@ select {
 
   .col-8 {
     width: 100%; 
-    margin-left: 0;
   }
 
   input[type="submit"] {
-    margin-left: 0; 
     max-width: 300px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .container {
-    font-size: medium;
-    grid-template-columns: 15vw 35vw; 
-  }
-}
+
