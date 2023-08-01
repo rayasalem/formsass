@@ -87,7 +87,10 @@ select {
   right:60px;
 }
 @media screen and (max-width: 600px) {
+<<<<<<< HEAD
 
+=======
+>>>>>>> d9a5d7b9c65ffbb988f2ec922919dd1dcef3e24c
 .row{
   grid-template-columns: 1fr;
 }
@@ -112,7 +115,10 @@ select {
   }
 }
 
+<<<<<<< HEAD
   
 
 
+=======
+>>>>>>> d9a5d7b9c65ffbb988f2ec922919dd1dcef3e24c
 
