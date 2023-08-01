@@ -1,38 +1,38 @@
 body {
-  background-image: url("plane.jpg");
+  background-image: url("Sky.jpg");
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
-}
-.right-element {
-  float: right;
-  margin-top: 100px;
-  margin-right: 50px;
-  max-width: 400px;
+font-size: medium;
 }
 .container {
- 
   font-size: small;
   border: 1px solid #ccc;
   padding: 10px;
-  width: 50vw;
+  width:40vw;
   background-color: #f2f2f2;
-  margin: 0 auto;
+  margin: 0 ;
+  margin-top: 0;
+  gap:20px;
+}
+.col-4 {
+  flex-basis: calc(30% - 10px); 
 }
 
-.col-4{
-  font-size: medium;
+.col-8 {
+  flex-basis: calc(50% - 10px); 
 }
-
 .row {
-  display: grid;
-  grid-template-columns: 15vw 35vw; 
-  grid-gap: 10px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap; 
   margin-bottom: 25px;
   margin-top: 0;
+  gap:20px;
 }
+
 
 input[type="text"],
 input[type="email"],
@@ -45,22 +45,22 @@ input[type="number"],
   margin-left: 40px;
   width:150px;
   max-width: 250px;
-
-
 }
 input[type="submit"] {
   background-color: #1b7ced;
   align-items: center;
-  width: 150px;
-  margin-left: 100px;
+  width:150px;
+  max-width: 200px;
+  height: 30px;
+  margin-left: 300px;
   margin-top: 20px;
 }
-
 #term,
 #avail1,
 #avail2,
 #avail3 {
   margin-left: 40px;
+  margin-bottom: 10px;
 }
 label {
   margin-bottom: 30px;
@@ -68,6 +68,7 @@ label {
 option {
   font-size: small;
   width: 300px;
+
 }
 select {
   font-size: small;
@@ -75,18 +76,27 @@ select {
   border: 1px solid gray;
   border-radius: 5px;
   background-color: #fff;
+
+}
+.right-element {
+  max-width: 400px;
+  margin-top: 200px;
+  margin-left: auto;
+  justify-self: end;
+  position: absolute;
+  right:60px;
 }
 @media screen and (max-width: 600px) {
- 
+
 .row{
   grid-template-columns: 1fr;
 }
-  .right-element {
-    float: none; 
-  margin-top: 0;
-    margin-right: 0; 
-    max-width: 100%;
-  }
+.right-element {
+  margin-top: 100px;
+  margin-left: auto;
+  max-width: 400px;
+  justify-self: end; 
+}
 
   .col-4 {
     width: 100%;
@@ -101,5 +111,8 @@ select {
     max-width: 300px;
   }
 }
+
+  
+
 
 
