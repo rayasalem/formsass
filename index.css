@@ -42,7 +42,6 @@ input[type="number"],
   padding: 5px;
   border: 1px solid gray;
   border-radius: 5px;
-  margin-left: 40px;
   width:150px;
   max-width: 250px;
 }
@@ -94,7 +93,6 @@ select {
   margin-top: 100px;
   margin-left: auto;
   max-width: 400px;
-  justify-self: end; 
 }
 
   .col-4 {
