@@ -12,6 +12,7 @@ font-size: medium;
   padding: 10px;
   width:40vw;
   background-color:#fdf8fc  ;
+  margin-left: 60px;
 }
 .col-4 {
   flex-basis: calc(30% - 10px); 
@@ -60,6 +61,7 @@ font-size: medium;
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 label {
   margin-bottom: 30px;
   font-style:italic;
@@ -77,10 +79,13 @@ select {
   border-radius: 5px;
   background-color: #fff;
 }
+label:hover{
+  font-size: larger;
+}
 .right-element {
   max-width: 400px;
   margin-top: 200px;
-  margin-left: auto;
+  margin-right:100px;
   position: absolute;
   right:90px;
   font-size: larger;
