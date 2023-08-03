@@ -8,11 +8,10 @@ font-size: medium;
 }
 .container {
   font-size: small;
-  border: 1px solid #7a7d7e;
+  border: 1px solid #dfdcdd;
   padding: 10px;
   width:40vw;
-  background-color:  rgba(245, 245, 245, 1);
-  gap:20px;
+  background-color:#fdf8fc  ;
 }
 .col-4 {
   flex-basis: calc(30% - 10px); 
@@ -39,14 +38,19 @@ font-size: medium;
   width:150px;
   max-width: 250px;
 }
-input[type="submit"] {
-  background-color: #1b7ced;
+#submit{
+  background-color: #323133;
   align-items: center;
   width:150px;
   max-width: 200px;
   height: 30px;
   margin-left: 300px;
   margin-top: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+#submit:hover{
+  background-color: #a0d6e4;
 }
 #term,
 #avail1,
@@ -56,6 +60,8 @@ input[type="submit"] {
 }
 label {
   margin-bottom: 30px;
+  font-style:italic;
+  font-weight: bold;
 }
 option {
   font-size: small;
