@@ -8,8 +8,8 @@
   </head>
   <body>
     <div class="right-element">
-      <h1>Make your Reservation</h1>
-      <p >Welcome to our reservation form!</p>
+      <h1> Make your Reservation </h1>
+      <p >    <pre>        Welcome to our reservation form!   </pre></p>
     </div>
 
     <div class="container">
@@ -23,6 +23,7 @@
               type="text"
               id="fname"
               placeholder="FirstName LastName"
+              class="input"
               required
             />
           </div>
@@ -38,6 +39,7 @@
               id="email"
               placeholder="EMAIL_ADDRESS"
               required
+              class="input"
             />
           </div>
         </div>
@@ -46,10 +48,10 @@
             <label for="tour-package">Select Tour Package</label>
           </div>
           <div class="col-8">
-            <select name="tour-package" id="tour-package" required>
-              <option value="Par">Pie</option>
-              <option value="Bagkok">soe</option>
-              <option value="C">Coe</option>
+            <select name="tour-package" id="tour-package"  class ="input"required>
+              <option value="Par">Pieo</option>
+              <option value="Bagkok">soei</option>
+              <option value="C">Coei</option>
               <option value="To">Toe</option>
               <option value="g" selected>go</option>
             </select>
@@ -61,7 +63,7 @@
             <label for="Arrival_DATE">Arrival date</label>
           </div>
           <div class="col-8">
-            <input type="date" id="Arrival_DATE" required />
+            <input type="date" id="Arrival_DATE" required class="input" />
           </div>
         </div>
 
@@ -74,15 +76,17 @@
               type="number"
               id="number"
               placeholder="unknown_type"
+              class="input"
               required
             />
           </div>
         </div>
-        <div class="row" style="margin-bottom: 50px">
+        <div class="row" >
           <div class="col-4">
             <label for="number">What you want to avail?</label>
           </div>
-          <div class="col-8">
+          <div class="col-8" >
+          <div class="avail">
             <input type="checkbox" id="avail1" name="avail1" value="Boarding" />
             <label for="avail1"> Boarding</label><br />
             <input type="checkbox" id="avail2" name="avail2" value="Fooding" />
@@ -96,12 +100,13 @@
             <label for="avail3"> Sight Seeing</label><br />
           </div>
         </div>
+        </div>
         <div class="row">
           <div class="col-4">
             <label for="code">coupon code</label>
           </div>
           <div class="col-8">
-            <input type="text" id="code" placeholder="unknown_type" required />
+            <input type="text" id="code" placeholder="unknown_type" required class="input" />
           </div>
         </div>
         <div class="row">
@@ -109,17 +114,20 @@
             <label for="number">Terms and condition</label>
           </div>
           <div class="col-8">
+            <legend>
             <input
               type="radio"
               id="term"
               name="term"
               value="I agree"
+              class="term"
               required
             />
             <label for="avail1"> I agree</label>
             <input
               type="radio"
               id="term"
+              class="term"
               name="term"
               value="I disagree"
               required
