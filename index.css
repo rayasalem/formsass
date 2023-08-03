@@ -32,11 +32,7 @@ font-size: medium;
 }
 
 
-input[type="text"],
-input[type="email"],
-input[type="date"],
-input[type="number"],
-#tour-package {
+.input {
   padding: 5px;
   border: 1px solid gray;
   border-radius: 5px;
@@ -56,7 +52,6 @@ input[type="submit"] {
 #avail1,
 #avail2,
 #avail3 {
-  margin-left: 40px;
   margin-bottom: 10px;
 }
 label {
@@ -73,15 +68,13 @@ select {
   border: 1px solid gray;
   border-radius: 5px;
   background-color: #fff;
-
 }
 .right-element {
   max-width: 400px;
   margin-top: 200px;
   margin-left: auto;
-  justify-self: end;
   position: absolute;
-  right:60px;
+  right:90px;
 }
 @media screen and (max-width: 600px) {
 .row{
