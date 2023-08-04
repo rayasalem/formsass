@@ -97,15 +97,15 @@ label:hover{
 @media screen and (max-width: 600px) {
   .container{
     height: 100%;
+    width: 100%;
   }
-.row{
-  grid-template-columns: 1fr;
-}
+
 .right-element {
   margin-top: 100px;
   margin-top: auto;
-  max-width: 400px;
   position: static;
+  font-weight:none;
+  font-size: small;
 }
 
   .col-4{
@@ -115,7 +115,7 @@ label:hover{
     width: 100%;
  }
 label{
-  font-size: small;
+  font: none;
 }
 
 
