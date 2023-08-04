@@ -6,15 +6,12 @@ body {
   background-attachment: fixed;
 font-size: medium;
 }
-image{
-  filter: opacity(30%);
-}
 .container {
   font-size: small;
   border: 1px solid #dfdcdd;
   padding: 10px;
   width:40vw;
-  background-color:#fdf3f5  ;
+  background-color:#fdf0e7;
   margin-left: 60px;
 }
 .col-4 {
@@ -111,7 +108,10 @@ label:hover{
   position: static;
 }
 
-  .col-4,.col-8 {
+  .col-4{
+    width: 100%;
+  }
+  .col-8 {
     width: 100%;
  }
 label{
@@ -119,7 +119,7 @@ label{
 }
 
 
-  #sumbit {
+  #submit {
     max-width: 100px;
     margin-top: 0;
     margin-left: 0;
