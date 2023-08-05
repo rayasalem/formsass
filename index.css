@@ -100,10 +100,8 @@ label:hover{
   }
 
 .right-element {
-  margin-top: 100px;
-  margin-top: auto;
   position: static;
-  font-weight:none;
+  font-weight:normal;
   font-size: small;
 }
 
@@ -113,11 +111,6 @@ label:hover{
   .col-8 {
     width: 100%;
  }
-label{
-  font: none;
-}
-
-
   #submit {
     max-width: 100px;
     margin-top: 0;
