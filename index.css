@@ -17,7 +17,6 @@ font-size: medium;
 .col-4 {
   flex-basis: calc(30% - 10px); 
 }
-
 .col-8 {
   flex-basis: calc(50% - 10px); 
 }
@@ -30,8 +29,6 @@ font-size: medium;
   margin-top: 0;
   gap:20px;
 }
-
-
 .input {
   padding: 5px;
   border: 1px solid gray;
@@ -59,7 +56,6 @@ font-size: medium;
   margin-bottom: 10px;
   margin-top: 10px;
 }
-
 label {
   margin-bottom: 30px;
   font-style:italic;
