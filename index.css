@@ -1,5 +1,5 @@
 body {
-  background-image: url("e.jpg");
+  background-image: url("sky.jpg");
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,8 +36,6 @@ font-size: medium;
   padding: 5px;
   border: 1px solid gray;
   border-radius: 5px;
-  width:150px;
-  max-width: 250px;
 }
 .input:hover{
   width:200px;
@@ -72,7 +70,6 @@ label {
 option {
   font-size: small;
   width: 300px;
-
 }
 select {
   font-size: small;
@@ -98,13 +95,16 @@ label:hover{
   .container{
     height: 100%;
   }
-
 .right-element {
   position: static;
   font-weight:normal;
   font-size: small;
+  margin-top: 0;
 }
-
+.row{
+  grid-template-columns: 1ftr;
+  display: grid;
+}
   .col-4{
     width: 100%;
   }
@@ -118,6 +118,7 @@ label:hover{
     height: auto;
     
   }
+
 }
 
   
