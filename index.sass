@@ -1,35 +1,5 @@
 @import "variable"
-
-@mixin flex-center
-  display: flex
-  justify-content: center
-  align-items: center
-
-@mixin background-properties($image, $repeat, $size, $attachment)
-  background-image: url($image)
-  background-repeat: $repeat
-  background-size: $size
-  background-attachment: $attachment
-
-@mixin input-styles
-  padding: 5px
-  border: 1px solid gray
-  border-radius: 5px
-
-  &:hover
-    width: 200px
-
-@mixin button-styles
-  align-items: center
-  font-weight: bold
-  font-style: italic
-  color: #fdf8fc
-
-  &:hover
-    background-color: #a0d6e4
-
-@mixin column($width)
-  flex-basis: calc(#{$width} - 10px)
+@import "mixin"
 
 body
   @include background-properties($bgImg, no-repeat, cover, fixed)
@@ -41,7 +11,7 @@ body
   border: 1px solid #dfdcdd
   padding: 10px
   width: 40vw
-  background-color: $secondary
+  background-color: $containerbg
   margin-left: 60px
 
   @media screen and (max-width: 600px)

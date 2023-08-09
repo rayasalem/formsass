@@ -143,13 +143,11 @@
 <script>
 const form = document.getElementById('reservationForm');
 form.addEventListener('submit', function (event) {
-  console.log(event)
   event.preventDefault(); 
   const formData = new FormData(event.target);
     const username = formData.get("fname");
     alert("Thank you, " + username + " for submitting the form!");
 });
-
 </script>
       </form>
     </div>
